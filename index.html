@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">  
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="contenido">
+
+      <div class="columna1">
+        <div class="fondodesk">
+          <img class="cajita" id="idcajita" src="images/illustration-box-desktop.svg" alt="caja">
+        </div>
+        <div class="fondomob" >
+          <img class="fondmobile" src="images/illustration-woman-online-mobile.svg" alt="imagen_mujer">
+        </div>
+
+      </div>
+
+
+      <div class="columna2">
+        <div class="faq"><span>Faq</span></div>
+
+        <div class="caja">
+          <div onclick="seleccionar(id)" onmouseover="mover()" onmouseout="regresar()" id="1" class="fila1">
+            <div class="titulo" id="t_1"><span>How many team members can I invite?</span></div>
+            <div class="icono" id="ico1"><img src="images/icon-arrow-down.svg" alt="icono_arrow"></div>
+          </div>
+          <div class="fila2" id="fila_1"><span>You can invite up to 2 additional users on the Free plan. There is no limit on 
+  team members for the Premium plan.</span></div>
+        </div>
+
+        <div class="caja">
+          <div onclick="seleccionar(id)" onmouseover="mover()" onmouseout="regresar()"  id="2" class="fila1">
+            <div class="titulo" id="t_2"><span>What is the maximum file upload size?</span></div>
+            <div class="icono" id="ico2"><img src="images/icon-arrow-down.svg" alt="icono_arrow"></div>
+          </div>
+          <div class="fila2" id="fila_2"><span>No more than 2GB. All files in your account must fit your allotted storage space.</span></div>
+        </div>
+
+        <div class="caja">
+          <div onclick="seleccionar(id)" onmouseover="mover()" onmouseout="regresar()"  id="3"  class="fila1">
+            <div class="titulo" id="t_3"><span>How do I reset my password?</span></div>
+            <div class="icono" id="ico3"><img src="images/icon-arrow-down.svg" alt="icono_arrow"></div>
+          </div>
+          <div class="fila2" id="fila_3"><span>Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.</span></div>
+        </div>
+
+        <div class="caja">
+          <div onclick="seleccionar(id)" onmouseover="mover()" onmouseout="regresar()"  id="4" class="fila1">
+            <div class="titulo"  id="t_4"><span>Can I cancel my subscription?</span></div>
+            <div class="icono" id="ico4"><img src="images/icon-arrow-down.svg" alt="icono_arrow"></div>
+          </div>
+          <div class="fila2" id="fila_4"><span>Yes! Send us a message and we’ll process your request no questions asked.</span></div>
+        </div>
+
+        <div class="caja">
+          <div onclick="seleccionar(id)" onmouseover="mover()" onmouseout="regresar()"  id="5" class="fila1">
+            <div class="titulo"  id="t_5"><span>Do you provide additional support?</span></div>
+            <div class="icono" id="ico5"><img src="images/icon-arrow-down.svg" alt="icono_arrow"></div>
+          </div>
+          <div class="fila2" id="fila_5"><span>Chat and email support is available 24/7. Phone lines are open during normal business hours.</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/gabrielveliz" target="_blank">Gabriel Veliz</a>.
+  </div>
+</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
